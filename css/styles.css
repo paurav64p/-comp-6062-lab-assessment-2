@@ -1,0 +1,39 @@
+.indicator
+{
+    padding: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+.danger
+{
+    color: red;
+}
+
+.warning
+{
+    color: yellow;
+}
+
+
+.safe
+{
+    color: green;
+}
+
+
+
+.inactive
+{
+    display: none;
+}
+
+footer
+{
+    background-color: #1c73ff;
+    color: #fff;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+
