@@ -11,22 +11,21 @@
     <body id="app" class="container">
         <header>
             <h1>
-                Pressure Monitor Interface - Paurav Pathak
-
+                Pressure Monitor Interface - {{myfullName}}
             </h1>
         </header>
         <main>
         <p>Current Pressure: <strong>{{ pressureMonitorValue }}</strong></p>
         <input type="range" min="0" max="100" v-model="pressureMonitorValue">
-        <div v-for="pressureLevel in pressureMonitorLevels"
-            :key="pressureLevel.id" 
-            :class="['indicator', pressureLevel.color,{ 'inactive': !isActive(pressureLevel) }]">{{pressureLevel.label}}
+        <div v-for="pressureLevel in pressureMonitorLevels":key="pressureLevel.id" :class="['indicator', pressureLevel.color,
+            { 'inactive': !isActive(pressureLevel) }]">{{ pressureLevel.label }}</div>
+
         </div>
         </main>
 
 
         <footer>
-            © Paurav Pathak - 1194984
+            {{myfullName}}
         </footer>
 
 

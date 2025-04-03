@@ -7,18 +7,18 @@
 
 .danger
 {
-    color: red;
+    background-color: red;
 }
 
 .warning
 {
-    color: yellow;
+    background-color: yellow;
 }
 
 
 .safe
 {
-    color: green;
+    background-color: green;
 }
 
 
